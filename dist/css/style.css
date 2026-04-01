@@ -114,7 +114,7 @@ header svg {
   gap: 50px;
 }
 
-.tentang-box .box:nth-child(1) img {
+.About-box .box:nth-child(1) img {
   width: 300px;
   padding: 10px 10px 0 10px;
   background-color: #34bfdb;
@@ -123,17 +123,17 @@ header svg {
   margin-inline: auto;
 }
 
-.tentang-box .box:nth-child(1) p {
+.About-box .box:nth-child(1) p {
   line-height: 2;
   text-align: justify;
   margin-bottom: 30px;
 }
 
-.tentang-box .box:nth-child(1) p span {
+.About-box .box:nth-child(1) p span {
   font-weight: bold;
 }
 
-.tentang-box .box:nth-child(1) a {
+.About-box .box:nth-child(1) a {
   border: 1px solid white;
   padding: 10px 20px;
   color: white;
@@ -141,20 +141,20 @@ header svg {
   border-radius: 5px;
 }
 
-.tentang-box .box:nth-child(1) a:hover {
+.About-box .box:nth-child(1) a:hover {
   background-color: white;
   color: black;
   font-weight: bold;
 }
 
-.tentang-box .tools {
+.About-box .tools {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 10px;
   margin-top: 30px;
 }
 
-.tentang-box .tools .tools-box {
+.About-box .tools .tools-box {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -163,26 +163,26 @@ header svg {
   border-radius: 5px;
 }
 
-.tentang-box .tools .tools-box:hover {
+.About-box .tools .tools-box:hover {
   background-color: white;
   color: black;
   border-radius: 5px;
 }
 
-.tentang-box .tools .tools-box img {
+.About-box .tools .tools-box img {
   width: 50px;
 }
 
 @media (max-width: 992px) {
-  .tentang-box .box:nth-child(1) {
+  .About-box .box:nth-child(1) {
     grid-template-columns: 1fr;
   }
 
-  .tentang-box .box:nth-child(1) div {
+  .About-box .box:nth-child(1) div {
     text-align: center;
   }
 }
-/* Tentang */
+/* About */
 
 /* Proyek */
 
@@ -190,41 +190,41 @@ header svg {
   padding-block: 50px;
 }
 
-.proyek-box {
+.projects-box {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
   margin-top: 50px;
 }
 
-.proyek-box .box {
+.projects-box .box {
   padding: 20px;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
 
-.proyek-box .box img {
+.projects-box .box img {
   width: 300px;
   border-radius: 5px;
 }
 
-.proyek-box .proyek-desc {
+.projects-box .projects-desc {
   margin-top: 20px;
 }
-.proyek-box .proyek-desc p {
+.projects-box .projects-desc p {
   line-height: 2;
   margin-top: 10px;
   margin-bottom: 20px;
   color: rgba(0, 0, 0, 0.6);
 }
 
-.proyek-box .proyek-desc .proyek-btn {
+.projects-box .projects-desc .projects-btn {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.proyek-box .proyek-desc .proyek-btn a {
+.projects-box .projects-desc .projects-btn a {
   background-color: #dbb2d7;
   padding: 10px 20px;
   color: white;
@@ -232,17 +232,17 @@ header svg {
   border-radius: 5px;
 }
 
-.proyek-box .proyek-desc .proyek-btn a:hover {
+.projects-box .projects-desc .projects-btn a:hover {
   background-color: #e38cdd;
 }
 
 @media (max-width: 768px) {
-  .proyek-box {
+  .projects-box {
     grid-template-columns: 1fr;
   }
 }
 
-/* Kontak */
+/* contact */
 footer {
   background-color: #92cef4;
   margin-top: -10px;
@@ -274,7 +274,7 @@ footer .social a {
     gap: 20px;
   }
 }
-/* Kontak */
+/* contact */
 
 /* Scrool Top UP */
 .scroll-up {
